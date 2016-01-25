@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b8be144b5f2ffc049aa63acd113e53e6
+timeCreated: 1439626690
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - tank: {instanceID: 0}
+  - spawner: {instanceID: 0}
+  - Explode: {instanceID: 0}
+  - mainBack: {instanceID: 0}
+  - wining: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
