@@ -12,7 +12,11 @@ public class Rotate : MonoBehaviour {
 
 	void Start () {
 		nowV = nextV = new Vector3 (transform.rotation.x, transform.rotation.y, transform.rotation.z);
-		MoveAway (pipeDest);
+//		MoveAway (pipeDest);
+		pipeDest = GameObject.Find ("DestroyerPipa");
+		if (!pipeDest) {
+			print("Ngga ada pipeDest");
+		}
 	}
 	
 	void OnMouseDown(){
